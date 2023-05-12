@@ -13,7 +13,7 @@ const Component = (props) => {
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Component />
+      <App />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
